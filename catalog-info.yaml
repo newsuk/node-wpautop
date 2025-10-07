@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: node-wpautop
+  description: Component for node-wpautop
+  annotations:
+    circleci.com/project-slug: github/newsuk/node-wpautop
+    backstage.io/source-location: url:https://github.com/newsuk/node-wpautop/
+    github.com/team-slug: newsuk/node-wpautop
+    backstage.io/techdocs-ref: dir:.
+    backstage.io/productivity-hub-metrics-enabled: 'true'
+  tags:
+    - bu:newsuk
+spec:
+  type: service
+  lifecycle: production
+  
